@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Project Tracking Admin Permission</label>
+    <permissionSets>ManageComment</permissionSets>
+    <permissionSets>ManageIssue</permissionSets>
+    <permissionSets>ManageIssueTag</permissionSets>
+    <permissionSets>ManageProject</permissionSets>
+    <permissionSets>ManageSprint</permissionSets>
+    <permissionSets>ManageSubtask</permissionSets>
+    <permissionSets>ManageTag</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>
