@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type__c</fullName>
+    <label>Type</label>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value><fullName>Task</fullName><default>false</default></value>
+            <value><fullName>Bug</fullName><default>false</default></value>
+            <value><fullName>Story</fullName><default>false</default></value>
+            <value><fullName>Epic</fullName><default>false</default></value>
+        </valueSetDefinition>
+        <valueSetType>Defined</valueSetType>
+    </valueSet>
+</CustomField>

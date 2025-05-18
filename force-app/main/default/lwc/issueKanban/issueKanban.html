@@ -1,0 +1,22 @@
+<template>
+    <div class="kanban-board">
+        <template if:true={hasData}>
+            <div class="kanban-columns">
+                <template for:each={columnsData} for:item="col">
+                    <div key={col.status} class="kanban-column">
+                        <h3>{col.status}</h3>
+                        <template for:each={col.issues} for:item="issue">
+                            <div key={issue.Id} class="kanban-card">
+                                <strong>{issue.Name}</strong>
+                                <p>{issue.Description__c}</p>
+                            </div>
+                        </template>
+                    </div>
+                </template>
+            </div>
+        </template>
+        <template if:false={hasData}>
+            <p>Loading issues...</p>
+        </template>
+    </div>
+</template>
